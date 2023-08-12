@@ -1,0 +1,31 @@
+﻿@using Alfasoft.Domain.Models
+@model PersonModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<div class="row">
+    <div class="col-md-12">
+        @using (Html.BeginForm("Create", "Person", FormMethod.Post, new { role = "form", @class = "" }))
+        {
+            @Html.HiddenFor(d => d.ID)
+            @Html.ValidationMessage("error", new { @class = "text-danger" })
+
+            @Html.LabelFor(d => d.NAME)
+            @Html.TextBoxFor(d => d.NAME, new { @class = "form-control" })
+            @Html.ValidationMessage("Name", new { @class = "text-danger" })
+
+            @Html.LabelFor(d => d.EMAIL)
+            @Html.TextBoxFor(d => d.EMAIL, new { @class = "form-control" })
+            @Html.ValidationMessage("Email", new { @class = "text-danger" })
+
+            <div style="text-align:right">
+                <input type="submit" class="btn btn-success" value="Create" />
+                <a asp-action="Index">Back</a>
+            </div>
+        }
+    </div>
+</div>

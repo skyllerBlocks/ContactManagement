@@ -1,0 +1,25 @@
+﻿@using Alfasoft.Domain.Models
+@model ContactModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<div class="row">
+    <div class="col-md-12">
+        @using (Html.BeginForm("Create", "Person", FormMethod.Post, new { role = "form", @class = "" }))
+        {
+            @Html.HiddenFor(d => d.ID)
+            @Html.ValidationMessage("error", new { @class = "text-danger" })
+
+            @Html.DropDownList("prodCompany", "All")
+
+            <div style="text-align:right">
+                <input type="submit" class="btn btn-success" value="Create" />
+                <a asp-action="Index">Back</a>
+            </div>
+        }
+    </div>
+</div>

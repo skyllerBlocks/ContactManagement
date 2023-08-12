@@ -1,0 +1,41 @@
+﻿@using Alfasoft.Domain.Models
+@model List<PersonModel>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<dt class="col-sm-2">
+
+</dt>
+<dd class="col-sm-10">
+    <a asp-action="Create">Create</a>
+    <table class="table">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+        @if (Model != null && Model.Count() > 0)
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NAME)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.EMAIL)
+                    </td>
+                    <td>
+                        <a asp-action="Details" asp-route-Id="@item.ID">Detail</a>
+                        <a asp-action="Edit" asp-route-Id="@item.ID">Edit</a>
+                        <a asp-action="Delete" asp-route-Id="@item.ID">Delete</a>
+                    </td>
+                </tr>
+            }
+        }
+    </table>
+</dd>

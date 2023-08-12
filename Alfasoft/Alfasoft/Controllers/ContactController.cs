@@ -1,7 +1,7 @@
-﻿using Alfasoft.Models;
-using ContactManagement.Interface;
+﻿using Alfasoft.Application.Services;
+using Alfasoft.Domain.Interfaces.Services;
+using Alfasoft.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
 
 namespace Alfasoft.Controllers
 {
@@ -15,32 +15,57 @@ namespace Alfasoft.Controllers
             _logger = logger;
         }
 
-        // GET: ContactController
-        public ActionResult Index()
+        public async Task<ActionResult> IndexAsync()
         {
-            return View(_contactService.GetAll());
+            try
+            {
+                return View(await _contactService.GetAll());
+            }
+            catch (Exception ex)
+            {
+
+                throw new Exception(ex.Message);
+            }
         }
 
-        // GET: ContactController/Details/5
-        public ActionResult Details(int Id)
+        public async Task<ActionResult> DetailsAsync(int Id)
         {
-            return View(_contactService.GetById(Id));
+            return View(await _contactService.GetById(Id));
         }
 
-        // GET: ContactController/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: ContactController/Create
+        public async Task<ActionResult> EditAsync(int Id)
+        {
+            return View(await _contactService.GetById(Id));
+        }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Create(ContactModel entity)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                _contactService.Insert(entity);
+                return RedirectToAction("Index");
+            }
+            catch
+            {
+                return RedirectToAction("Index");
+            }
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(ContactModel entity)
+        {
+            try
+            {
+                _contactService.Update(entity);
+                return RedirectToAction("Index");
             }
             catch
             {
@@ -48,47 +73,17 @@ namespace Alfasoft.Controllers
             }
         }
 
-        // GET: ContactController/Edit/5
-        public ActionResult Edit(int Id)
-        {
-            return View(_contactService.GetById(Id));
-        }
-
-        // POST: ContactController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public async Task<ActionResult> DeleteAsync(ContactModel entity)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                await _contactService.DeleteAsync(entity);
+                return RedirectToAction("Index");
             }
             catch
             {
-                return View();
+                return RedirectToAction("Index");
             }
         }
-
-        // GET: ContactController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: ContactController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
     }
 }

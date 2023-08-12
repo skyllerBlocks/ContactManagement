@@ -1,0 +1,15 @@
+C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Application\bin\Debug\net6.0\Alfasoft.Application.deps.json
+C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Application\bin\Debug\net6.0\Alfasoft.Application.dll
+C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Application\bin\Debug\net6.0\Alfasoft.Application.pdb
+C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Application\bin\Debug\net6.0\Alfasoft.Domain.dll
+C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Application\bin\Debug\net6.0\Alfasoft.Domain.pdb
+C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Application\obj\Debug\net6.0\Alfasoft.Application.csproj.AssemblyReference.cache
+C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Application\obj\Debug\net6.0\Alfasoft.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Application\obj\Debug\net6.0\Alfasoft.Application.AssemblyInfoInputs.cache
+C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Application\obj\Debug\net6.0\Alfasoft.Application.AssemblyInfo.cs
+C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Application\obj\Debug\net6.0\Alfasoft.Application.csproj.CoreCompileInputs.cache
+C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Application\obj\Debug\net6.0\Alfasoft.Application.csproj.CopyComplete
+C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Application\obj\Debug\net6.0\Alfasoft.Application.dll
+C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Application\obj\Debug\net6.0\refint\Alfasoft.Application.dll
+C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Application\obj\Debug\net6.0\Alfasoft.Application.pdb
+C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Application\obj\Debug\net6.0\ref\Alfasoft.Application.dll

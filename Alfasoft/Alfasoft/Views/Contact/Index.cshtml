@@ -1,4 +1,4 @@
-﻿@using ContactManagement.Models
+﻿@using Alfasoft.Domain.Models
 @model List<ContactModel>
 @{
     ViewData["Title"] = "Home Page";
@@ -12,23 +12,30 @@
     <table class="table">
         <tr>
             <th>Id</th>
-            <th>Nome</th>
+            <th>Name</th>
+            <th>Email</th>
         </tr>
-        @foreach (var item in Model)
+        @if (Model != null && Model.Count() > 0)
         {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Id)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Name)
-                </td>
-                <td>
-                    <a asp-action="Details" asp-route-Id="@item.Id">Detail</a>
-                    <a asp-action="Edit" asp-route-Id="@item.Id">Edit</a>
-                    <a asp-action="Delete" asp-route-Id="@item.Id">Delete</a>
-                </td>
-            </tr>
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NAME)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.EMAIL)
+                    </td>
+                    <td>
+                        <a asp-action="Details" asp-route-Id="@item.ID">Detail</a>
+                        <a asp-action="Edit" asp-route-Id="@item.ID">Edit</a>
+                        <a asp-action="Delete" asp-route-Id="@item.ID">Delete</a>
+                    </td>
+                </tr>
+            }
         }
     </table>
 </dd>

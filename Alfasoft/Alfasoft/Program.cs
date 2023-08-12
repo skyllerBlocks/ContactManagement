@@ -1,9 +1,10 @@
-using ContactManagement.Interface;
-using ContactManagement.Service;
+using Alfasoft.IoC;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddScoped<IContactService, ContactService>();
+Bootstrapper bootstrapper = new Bootstrapper();
+bootstrapper.ConfigureServices(builder.Services, builder.Configuration);
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -27,6 +28,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Person}/{action=Index}/{id?}");
 
 app.Run();

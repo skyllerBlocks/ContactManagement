@@ -1,0 +1,12 @@
+C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Domain\bin\Debug\net6.0\Alfasoft.Domain.deps.json
+C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Domain\bin\Debug\net6.0\Alfasoft.Domain.dll
+C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Domain\bin\Debug\net6.0\Alfasoft.Domain.pdb
+C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Domain\obj\Debug\net6.0\Alfasoft.Domain.csproj.AssemblyReference.cache
+C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Domain\obj\Debug\net6.0\Alfasoft.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Domain\obj\Debug\net6.0\Alfasoft.Domain.AssemblyInfoInputs.cache
+C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Domain\obj\Debug\net6.0\Alfasoft.Domain.AssemblyInfo.cs
+C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Domain\obj\Debug\net6.0\Alfasoft.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Domain\obj\Debug\net6.0\Alfasoft.Domain.dll
+C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Domain\obj\Debug\net6.0\refint\Alfasoft.Domain.dll
+C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Domain\obj\Debug\net6.0\Alfasoft.Domain.pdb
+C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Domain\obj\Debug\net6.0\ref\Alfasoft.Domain.dll

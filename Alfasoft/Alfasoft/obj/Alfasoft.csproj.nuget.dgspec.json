@@ -4,14 +4,156 @@
     "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft\\Alfasoft.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft\\Alfasoft.csproj": {
+    "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft.Application\\Alfasoft.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft\\Alfasoft.csproj",
-        "projectName": "Alfasoft",
-        "projectPath": "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft\\Alfasoft.csproj",
+        "projectUniqueName": "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft.Application\\Alfasoft.Application.csproj",
+        "projectName": "Alfasoft.Application",
+        "projectPath": "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft.Application\\Alfasoft.Application.csproj",
         "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft\\obj\\",
+        "outputPath": "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft.Domain\\Alfasoft.Domain.csproj": {
+                "projectPath": "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft.Domain\\Alfasoft.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft.Dapper\\Alfasoft.Dapper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft.Dapper\\Alfasoft.Dapper.csproj",
+        "projectName": "Alfasoft.Dapper",
+        "projectPath": "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft.Dapper\\Alfasoft.Dapper.csproj",
+        "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft.Dapper\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft.Domain\\Alfasoft.Domain.csproj": {
+                "projectPath": "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft.Domain\\Alfasoft.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "SQLitePCLRaw.bundle_e_sqlite3": {
+              "target": "Package",
+              "version": "[2.1.6-pre20230809203314, )"
+            },
+            "SQLitePCLRaw.core": {
+              "target": "Package",
+              "version": "[2.1.6-pre20230809203314, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft.Domain\\Alfasoft.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft.Domain\\Alfasoft.Domain.csproj",
+        "projectName": "Alfasoft.Domain",
+        "projectPath": "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft.Domain\\Alfasoft.Domain.csproj",
+        "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +186,174 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper.Mapper": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Dommel": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft.IoC\\Alfasoft.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft.IoC\\Alfasoft.IoC.csproj",
+        "projectName": "Alfasoft.IoC",
+        "projectPath": "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft.IoC\\Alfasoft.IoC.csproj",
+        "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft.Application\\Alfasoft.Application.csproj": {
+                "projectPath": "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft.Application\\Alfasoft.Application.csproj"
+              },
+              "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft.Dapper\\Alfasoft.Dapper.csproj": {
+                "projectPath": "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft.Dapper\\Alfasoft.Dapper.csproj"
+              },
+              "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft.Domain\\Alfasoft.Domain.csproj": {
+                "projectPath": "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft.Domain\\Alfasoft.Domain.csproj"
+              },
+              "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\ExternalServices\\ExternalServices.csproj": {
+                "projectPath": "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\ExternalServices\\ExternalServices.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Refit": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Refit.HttpClientFactory": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft\\Alfasoft.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft\\Alfasoft.csproj",
+        "projectName": "Alfasoft",
+        "projectPath": "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft\\Alfasoft.csproj",
+        "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft.Application\\Alfasoft.Application.csproj": {
+                "projectPath": "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft.Application\\Alfasoft.Application.csproj"
+              },
+              "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft.IoC\\Alfasoft.IoC.csproj": {
+                "projectPath": "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\Alfasoft.IoC\\Alfasoft.IoC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -59,6 +369,80 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\ExternalServices\\ExternalServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\ExternalServices\\ExternalServices.csproj",
+        "projectName": "ExternalServices",
+        "projectPath": "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\ExternalServices\\ExternalServices.csproj",
+        "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gustavo\\Desktop\\Solutions\\Alfasoft\\ExternalServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Refit": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Refit.HttpClientFactory": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
