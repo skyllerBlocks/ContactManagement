@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using ExternalServices.ExternalInterface.Restcountries.Model;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Alfasoft.Domain.Models
 {
@@ -9,5 +10,7 @@ namespace Alfasoft.Domain.Models
         public string COUNTRY_CODE { get; set; }
         public int NUMBER { get; set; }
         public int PERSON_ID { get; set; }
-    }
+
+        public List<RestcointriesModel> Restcointries { get; set; }
+}
 }

@@ -1,16 +1,20 @@
 ﻿using Alfasoft.Domain.Interfaces.Repositories;
 using Alfasoft.Domain.Interfaces.Services;
 using Alfasoft.Domain.Models;
+using ExternalServices.ExternalInterface;
+using ExternalServices.ExternalInterface.Restcountries.Model;
 
 namespace Alfasoft.Application.Services
 {
     public class ContactService : IContactService
     {
         private readonly IContactRepository _contactRepository;
+        private readonly IRestcountriesService _restcountriesService;
 
-        public ContactService(IContactRepository contactRepository)
+        public ContactService(IContactRepository contactRepository, IRestcountriesService restcountriesService)
         {
             _contactRepository = contactRepository;
+            _restcountriesService = restcountriesService;
         }
 
         public async Task DeleteAsync(ContactModel entity)
@@ -56,6 +60,11 @@ namespace Alfasoft.Application.Services
                 return false;
                 throw new Exception(ex.Message);
             }
+        }
+
+        public async Task<List<RestcointriesModel>> GetRestcountriesList()
+        {
+           return await _restcountriesService.GetAll();
         }
     }
 }

@@ -10,13 +10,12 @@ namespace ExternalServices.ExternalInterface
 {
     public interface IRestcountriesService
     {
-        public interface IPersonApiService
-        {
-            [Get("/All")]
-            Task<List<RestcointriesModel>> GetAll();
 
-            [Get("/alpha/{code}")]
-            Task<RestcointriesModel> GetByCode(int code);
-        }
+        [Get("/All")]
+        Task<List<RestcointriesModel>> GetAll();
+
+        [Get("/alpha/{code}")]
+        Task<RestcointriesModel> GetByCode(int code);
+
     }
 }

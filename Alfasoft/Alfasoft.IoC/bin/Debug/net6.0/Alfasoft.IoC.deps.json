@@ -1096,7 +1096,8 @@
       "Alfasoft.Domain/1.0.0": {
         "dependencies": {
           "Dapper.Mapper": "2.0.0",
-          "Dommel": "3.1.0"
+          "Dommel": "3.1.0",
+          "ExternalServices": "1.0.0"
         },
         "runtime": {
           "Alfasoft.Domain.dll": {}

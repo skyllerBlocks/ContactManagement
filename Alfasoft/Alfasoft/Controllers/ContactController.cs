@@ -33,9 +33,11 @@ namespace Alfasoft.Controllers
             return View(await _contactService.GetById(Id));
         }
 
-        public ActionResult Create()
+        public async Task<ActionResult> CreateAsync()
         {
-            return View();
+            var entity = new ContactModel();
+            entity.Restcointries = await _contactService.GetRestcountriesList();
+            return View(entity);
         }
 
         public async Task<ActionResult> EditAsync(int Id)

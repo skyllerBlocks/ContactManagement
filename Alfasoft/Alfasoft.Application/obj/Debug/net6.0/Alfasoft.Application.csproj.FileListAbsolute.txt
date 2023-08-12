@@ -13,3 +13,5 @@ C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Application\obj\Debug\net6.
 C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Application\obj\Debug\net6.0\refint\Alfasoft.Application.dll
 C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Application\obj\Debug\net6.0\Alfasoft.Application.pdb
 C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Application\obj\Debug\net6.0\ref\Alfasoft.Application.dll
+C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Application\bin\Debug\net6.0\ExternalServices.dll
+C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Application\bin\Debug\net6.0\ExternalServices.pdb

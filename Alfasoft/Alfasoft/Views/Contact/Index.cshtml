@@ -24,12 +24,6 @@
                         @Html.DisplayFor(modelItem => item.ID)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.NAME)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.EMAIL)
-                    </td>
-                    <td>
                         <a asp-action="Details" asp-route-Id="@item.ID">Detail</a>
                         <a asp-action="Edit" asp-route-Id="@item.ID">Edit</a>
                         <a asp-action="Delete" asp-route-Id="@item.ID">Delete</a>

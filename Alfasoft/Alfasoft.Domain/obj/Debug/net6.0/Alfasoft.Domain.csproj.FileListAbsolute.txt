@@ -10,3 +10,6 @@ C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Domain\obj\Debug\net6.0\Alf
 C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Domain\obj\Debug\net6.0\refint\Alfasoft.Domain.dll
 C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Domain\obj\Debug\net6.0\Alfasoft.Domain.pdb
 C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Domain\obj\Debug\net6.0\ref\Alfasoft.Domain.dll
+C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Domain\bin\Debug\net6.0\ExternalServices.dll
+C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Domain\bin\Debug\net6.0\ExternalServices.pdb
+C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Domain\obj\Debug\net6.0\Alfasoft.Domain.csproj.CopyComplete

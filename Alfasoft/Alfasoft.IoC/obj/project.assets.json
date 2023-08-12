@@ -1872,7 +1872,8 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Dapper.Mapper": "2.0.0",
-          "Dommel": "3.1.0"
+          "Dommel": "3.1.0",
+          "ExternalServices": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Alfasoft.Domain.dll": {}

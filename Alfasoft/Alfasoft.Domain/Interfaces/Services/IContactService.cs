@@ -1,5 +1,6 @@
 ﻿using Alfasoft.Domain.Interfaces.Repositories;
 using Alfasoft.Domain.Models;
+using ExternalServices.ExternalInterface.Restcountries.Model;
 
 namespace Alfasoft.Domain.Interfaces.Services
 {
@@ -10,5 +11,6 @@ namespace Alfasoft.Domain.Interfaces.Services
         Task<ContactModel> GetById(int Id);
         Task<bool> Insert(ContactModel entity);
         Task<bool> Update(ContactModel entity);
+        Task<List<RestcointriesModel>> GetRestcountriesList();
     }
 }

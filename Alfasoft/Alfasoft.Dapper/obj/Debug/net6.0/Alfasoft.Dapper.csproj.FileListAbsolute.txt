@@ -13,3 +13,5 @@ C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Dapper\obj\Debug\net6.0\Alf
 C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Dapper\obj\Debug\net6.0\refint\Alfasoft.Dapper.dll
 C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Dapper\obj\Debug\net6.0\Alfasoft.Dapper.pdb
 C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Dapper\obj\Debug\net6.0\ref\Alfasoft.Dapper.dll
+C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Dapper\bin\Debug\net6.0\ExternalServices.dll
+C:\Users\Gustavo\Desktop\Solutions\Alfasoft\Alfasoft.Dapper\bin\Debug\net6.0\ExternalServices.pdb
